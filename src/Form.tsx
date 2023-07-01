@@ -47,7 +47,7 @@ const HomingCompassForm: React.FC = () => {
         <div className="harry-potter">
           <div className="form-header">
             <img
-              src="https://git.corp.adobe.com/pages/shravans/escape-TH/MadMazeFinal.png"
+              src="https://l3vi-7.github.io/escape-TH/MadMazeFinal.png"
               alt="Logo"
               className="logo"
             />
