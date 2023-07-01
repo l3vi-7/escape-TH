@@ -1,0 +1,139 @@
+/* Form.css */
+
+/* Material Design styles */
+body {
+  margin: 0;
+  background-color: #313e51;
+}
+.scene {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  font-family: "Harry Potter", cursive;
+  background-color: #313e51;
+}
+
+.harry-potter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../harry-potter-gif.gif");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.homing-compass-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input {
+  height: 30px;
+  padding: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  height: 40px;
+  padding: 0 20px;
+  background-color: #2196f3;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1976d2;
+}
+
+/* Harry Potter theme */
+
+.homing-compass-form {
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(5px);
+  border-radius: 5px;
+  font-family: "Harry Potter", cursive;
+  color: #333;
+}
+
+label {
+  color: #333;
+}
+
+input {
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+button {
+  background-color: #9c4c0e;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #773808;
+}
+
+.message-card {
+  max-width: 300px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: "Harry Potter", cursive;
+  color: #333;
+}
+
+.message-card {
+  background-color: #f5edd7;
+  border: 1px solid #ddc68e;
+  padding: 10px;
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  color: #7a6e5d;
+}
+
+.form-header {
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 2%;
+}
+
+.logo {
+  width: 15%; /* Adjust the size as needed */
+  height: auto;
+}
+
+.form-heading {
+  font-size: 40px;
+  margin: 0;
+  color: #ffdf34;
+}
+
+.form-subheading {
+  font-size: 24px;
+  margin: 0;
+  color: #ffc25a;
+  margin-top: 10px;
+}
