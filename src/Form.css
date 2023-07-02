@@ -130,6 +130,7 @@ button:hover {
   margin: 0;
   margin-top: -40px;
   color: #ffdf34;
+  text-shadow: 1px 1px 3px #000;
 }
 
 .form-subheading {
