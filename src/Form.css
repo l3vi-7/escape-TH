@@ -1,6 +1,11 @@
-/* Form.css */
+@font-face {
+  font-family: "AquilineTwo";
+  src: url("./fonts/AquilineTwo.ttf") format("ttf"),
+    url("./fonts/AquilineTwo.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
 
-/* Material Design styles */
 body {
   margin: 0;
   background-color: #313e51;
@@ -70,7 +75,6 @@ button:hover {
   backdrop-filter: blur(5px);
   border-radius: 5px;
   font-family: "AquilineTwo", cursive;
-  src: url("./fonts/AquilineTwo.ttf");
   color: #333;
 }
 
