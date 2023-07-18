@@ -11,7 +11,7 @@ const HomingCompassForm: React.FC = () => {
       setMessage("Yeh need to enter both a floor number and a seat number!");
     } else if (!isNaN(+seatNo) && !isNaN(+floorNo)) {
       const destinationFloor = "TkE9PQ==";
-      const destinationSeat = "TVRZdw==";
+      const destinationSeat = "TVRVMw==";
 
       if (+floorNo > +atob(atob(destinationFloor))) {
         setMessage(
